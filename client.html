@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <p>live camera</p>
+    <canvas id="canvas" style="width: 640px; height: 480px"></canvas>
+  </body>
+
+  <script type="text/javascript" src="jsmpeg.min.js"></script>
+
+  <script type="text/javascript">
+    player = new JSMpeg.Player("ws://localhost:9999/api/stream", {
+      canvas: document.getElementById("canvas"),
+    });
+  </script>
+</html>
