@@ -1,5 +1,7 @@
 ## rtps-replay example
 
+- require install ffmpeg
+
 ### 1. install package
 
 ```js
